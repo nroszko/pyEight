@@ -19,7 +19,7 @@ from datetime import datetime
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, current_dir)
 
-from pyEight.eight import EightSleep
+from peight.eight import EightSleep
 
 # TODO: WARNING: Running this demo will modify your Eight Sleep alarms and bedtime settings with the values from the demo.
 # TODO: ------------------------------------------------------------------------
