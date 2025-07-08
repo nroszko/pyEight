@@ -21,7 +21,7 @@ import asyncio
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, current_dir)
 
-from pyEight.eight import EightSleep
+from pyeight.eight import EightSleep
 
 # TODO: ------------------------------------------------------------------------
 # TODO: Replace with your actual Eight Sleep credentials ---------------------------------------

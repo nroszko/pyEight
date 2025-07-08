@@ -1,7 +1,7 @@
 """Util functions for the Eight Sleep API."""
 
 from .constants import RAW_TO_CELSIUS_MAP, RAW_TO_FAHRENHEIT_MAP
-from .types import UnitOfTemperature
+from ._types import UnitOfTemperature
 
 
 def heating_level_to_temp(heating_level: int, degree_unit: UnitOfTemperature) -> int:
